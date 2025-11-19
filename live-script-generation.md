@@ -54,9 +54,14 @@ Every Live Script should follow this structure:
    - Demonstrate key concepts with examples
 
 3. **Closing Appendix**
-   - Metadata section with copyright or author info
-   - Version information
-   - Related documentation links
+
+   ```
+      %[appendix]{"version":"1.0"}
+      %---
+      %[metadata:view]
+      %   data: {"layout":"inline"}
+      %---
+   ```
 
 ## Usage Guidelines
 
@@ -112,4 +117,10 @@ ylabel("sin(x)")
 %%
 %[text] ---
 %[text] *Copyright notice or metadata*
+
+%[appendix]{"version":"1.0"}
+%---
+%[metadata:view]
+%   data: {"layout":"inline"}
+%---
 ```
