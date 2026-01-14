@@ -40,6 +40,12 @@ R2025a or newer
   %[text] - Third item\
   ```
 
+### Output Preferences
+- Prefer one output per code block
+- Avoid multiple outputs per code block, except during loops or repeated function calls
+- To display text values, leave off the semicolon
+- Do not use `fprintf` or similar commands to display text
+
 ## Script Template Structure
 
 Every Live Script should follow this structure:
