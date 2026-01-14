@@ -82,10 +82,10 @@ When generating Live Scripts:
 
 ## Benefits of Plain Text Format
 
-- **Version Control Compatible**: Easy to track changes in Git
-- **AI Development Ready**: Works seamlessly with AI coding assistants
-- **Collaboration Friendly**: Simple to review and merge in pull requests
-- **Portable**: Can be edited in any text editor
+- Easy to track changes in Git
+- Works with AI coding assistants
+- Simple to review and merge in pull requests
+- Can be edited in any text editor
 
 ## Example Structure
 

@@ -1,14 +1,14 @@
 # MATLAB AI Coding Rules
 
-A collection of MATLAB coding rules and guidelines optimized for use with AI coding assistants like Cursor, Windsurf, Claude Code, and GitHub Copilot.
+MATLAB coding rules and guidelines for AI coding assistants like Cursor, Windsurf, Claude Code, and GitHub Copilot.
 
 ## Overview
 
-This repository provides modular, reusable rule files that help AI coding assistants generate high-quality MATLAB code that follows best practices and coding standards. Each rule file focuses on a specific aspect of MATLAB development.
+Rule files for AI coding assistants to generate MATLAB code that follows coding standards.
 
 ## Available Rules
 
-### 📝 [matlab-coding-standards.md](matlab-coding-standards.md)
+### [matlab-coding-standards.md](matlab-coding-standards.md)
 Comprehensive MATLAB coding standards covering:
 - Naming conventions for variables, functions, classes, and properties
 - Statement and expression guidelines
@@ -18,7 +18,7 @@ Comprehensive MATLAB coding standards covering:
 
 **Use this rule when**: Writing or reviewing any MATLAB code for standards compliance
 
-### 📄 [live-script-generation.md](live-script-generation.md)
+### [live-script-generation.md](live-script-generation.md)
 Guidelines for generating MATLAB Live Scripts in plain text `.m` format:
 - Plain text Live Script formatting rules
 - Section structure and documentation
@@ -330,4 +330,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 ---
 
-**Note**: These rules are designed to work with AI coding assistants. While they provide comprehensive guidance, always review AI-generated code and adapt rules to your specific project needs.
+**Note**: Always review AI-generated code and adapt rules to your project's needs.
