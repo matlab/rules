@@ -2,11 +2,7 @@
 
 This file contains comprehensive performance optimization guidelines for MATLAB development. Use these rules when writing performance-critical MATLAB code, optimizing existing code, and building responsive applications.
 
-## License
-
 Based on official [MathWorks documentation](https://www.mathworks.com/help/matlab/performance-and-memory.html) and community best practices.
-
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ---
 

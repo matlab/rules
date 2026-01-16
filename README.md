@@ -28,6 +28,18 @@ Guidelines for generating MATLAB Live Scripts in plain text `.m` format:
 
 **Use this rule when**: Creating MATLAB Live Scripts that need to be version-controlled or AI-generated
 
+### [matlab-performance-optimization.md](matlab-performance-optimization.md)
+Performance optimization guidelines for MATLAB development:
+- Profiling and benchmarking techniques
+- Vectorization and implicit expansion
+- Memory management and pre-allocation
+- Parallel computing with parfor and parfeval
+- App Designer performance optimization
+- JIT compiler optimization patterns
+- File I/O performance strategies
+
+**Use this rule when**: Writing performance-critical MATLAB code, optimizing existing code, or building responsive applications
+
 ## Quick Start
 
 Choose your AI coding tool and follow the appropriate setup instructions:
@@ -42,6 +54,7 @@ Choose your AI coding tool and follow the appropriate setup instructions:
    mkdir .cursor/rules
    cp matlab-coding-standards.md .cursor/rules/
    cp live-script-generation.md .cursor/rules/
+   cp matlab-performance-optimization.md .cursor/rules/
    ```
 3. Cursor will automatically load these rules for your project
 
@@ -69,6 +82,7 @@ When writing MATLAB code, follow the standards at @matlab-coding-standards.md
    mkdir .windsurf/rules
    cp matlab-coding-standards.md .windsurf/rules/
    cp live-script-generation.md .windsurf/rules/
+   cp matlab-performance-optimization.md .windsurf/rules/
    ```
 3. Windsurf will automatically apply these rules to your workspace
 
@@ -100,6 +114,7 @@ When working with MATLAB code in this project, import and follow these rules:
 
 @matlab-coding-standards.md
 @live-script-generation.md
+@matlab-performance-optimization.md
 ```
 
 **Option 2: Direct Reference**
@@ -248,6 +263,17 @@ Refactor this MATLAB function to follow @matlab-coding-standards.md:
 - Proper documentation
 ```
 
+### Example 6: Performance Optimization
+
+**Any Tool:**
+```
+@matlab-performance-optimization.md Optimize this MATLAB function that processes large datasets:
+
+[paste code]
+
+Focus on vectorization, memory pre-allocation, and avoiding common anti-patterns.
+```
+
 ## Combining Multiple Rules
 
 You can reference multiple rule files in a single prompt:
@@ -263,11 +289,13 @@ Create a plain text Live Script that demonstrates object-oriented programming in
 ```markdown
 # Combined MATLAB Rules
 
-Apply both:
+Apply all:
 1. MATLAB Coding Standards (matlab-coding-standards.md)
 2. Live Script Generation rules (live-script-generation.md)
+3. Performance Optimization (matlab-performance-optimization.md)
 
 When creating Live Scripts, use plain text format AND follow naming/formatting standards.
+When writing computational code, apply performance optimization best practices.
 ```
 
 ## Best Practices
