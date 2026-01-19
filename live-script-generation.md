@@ -35,9 +35,9 @@ R2025a or newer
 - End bulleted lists with a trailing backslash
 - Example:
   ```
-  %[text] - First item\
-  %[text] - Second item\
-  %[text] - Third item\
+  %[text] - First item
+  %[text] - Second item
+  %[text] - Third item \
   ```
 
 ### Output Preferences
